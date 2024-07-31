@@ -15,7 +15,7 @@ Scenario: Buying product
 
 Scenario: Paying for product
     Given product in the bucket
-    When chose the payment method
+    When chosen the payment method
     Then confirm the payment and order the product
     And then validate the order
     And then validate the payment
