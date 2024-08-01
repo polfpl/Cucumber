@@ -10,7 +10,7 @@ Scenario: Searching for product
 Scenario: Buying product
     Given Opened webshop site on searching engine with results
     When product is found 
-    Then chose the product 
+    Then choose the product 
     And add to the bucket
 
 Scenario: Paying for product
